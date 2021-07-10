@@ -1,0 +1,36 @@
+html{
+    width: 96vw;
+    height: 95vh;
+  }
+body{
+   
+    flex-direction: row;
+    background-color: rgba(224, 233, 227, 0.644); 
+    
+   
+}
+.input-label{
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button-back{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0%;
+}
+button{
+    width: 70px;
+    height:45px;
+}
+.container{
+    width: 30%;
+    display: inline-block;
+    justify-content:space-around;
+    align-items: center;
+    padding: 25px;
+    box-shadow:0px 0px 10px -7px;
+}
+header{
+    background-color: white;
+}
